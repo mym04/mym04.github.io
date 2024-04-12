@@ -1,0 +1,28 @@
+.p_b_right{
+    background: linear-gradient(to right ,pink,skyblue);
+}
+
+.a1{
+    color: black;
+    text-decoration: none;
+}
+.a1:hover{
+    color: blue;
+    text-decoration:underline;
+}
+
+.a2{
+    text-decoration: none;
+}
+.a2:hover{
+    text-decoration: underline;
+}
+
+.p1:hover{
+    color: rgb(14, 121, 163);
+}
+
+.p2{
+    font-size: 28px;
+    color: rgb(14, 121, 163);
+}
