@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>注册</title>
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css.css">
+	</head>
+	<body class="p_b_right">
+
+		<fieldset>
+			<legend><p class="p2">&gt;注册&lt; &nbsp; or &nbsp; <a href="registered.html" style="color: rgb(223, 143, 215);">登录</a></p></legend>
+		
+		<!-- 不会数据库 -->
+		<form action="index.html" method="post">
+			<label for="username" class="p1">*用户名</label>
+			<input type="text" name="username" id="username" placeholder="请输入您的用户名" maxlength="16" size="30" required pattern="[a-zA-Z0-9]{6-16}">
+			<label for="password" class="p1">*密码</label>
+			<input type="password" name="password" placeholder="请输入密码[16个字符以内]" maxlength="16" size="30" required pattern="[a-zA-Z0-9]{6-16}">
+			<label for="Rpassword" class="p1">*确认密码</label>
+			<input type="password" name="Rpassword" placeholder="请输入密码[16个字符以内]" maxlength="16" size="30" required pattern="[a-zA-Z0-9]{6-16}">
+			<label >您的生日<input type="date" /></label>
+			
+			<fieldset>
+				<legend class="p1">*性别</legend>
+				
+				<label><input type="radio" name="sex" value="1" />男</label>
+				<label><input type="radio" name="sex" value="2" />女</label>
+				<label><input type="radio" name="sex" value="3" />武装直升机</label>
+				<label><input type="radio" name="sex" value="4" />沃尔玛购物袋</label>
+				<label><input type="radio" name="sex" value="0" checked/>我不愿其他人知道我的性别</label>
+				
+			</fieldset>
+			<!-- 条款没做 -->
+			<label><input type="checkbox" name="ty" value="ty" required/>我已同意<a href="yh.html" class="a2">《用户条款》</a>和<a href="ys.html" class="a2">《隐私协议》</a></label>
+			<table border="0">
+				<tr>
+					<td width="180"><input type="submit" value="注册"/></td>
+					<td><input type="reset" name="reset" id="" value="重置" /></td>
+				</tr>
+			</table>
+			
+			
+		</form>
+	</fieldset>
+	</body>
+</html>
