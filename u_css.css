@@ -1,0 +1,34 @@
+
+/* 主页背景 */
+.u_body{
+    background: skyblue;
+    overflow: hidden;
+}
+
+/* 导航栏 */
+.box_top ul {
+    list-style: none;
+    margin: 22px 0 0;
+    text-align: center;
+
+}
+
+.box_top ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.box_top ul li a{
+    background: #70acc2;
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 4em;
+    color: lightpink;
+}
+
+.box_top ul li a:hover{
+    background: skyblue;
+}
